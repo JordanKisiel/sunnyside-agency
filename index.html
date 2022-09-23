@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap" rel="stylesheet"> 
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <link rel="stylesheet" href="css/main.css">
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
+</head>
+<body>
+    <header class="flex flex-col items-center bg-[url('../images/mobile/image-header.jpg')] bg-cover bg-bottom pt-6 px-6 pb-36">
+        <nav class="flex flex-row justify-between items-center relative w-full mb-20">
+            <a href="#">
+                <img class="w-30" src="images/logo.svg" alt="sunnyside logo">
+            </a>
+            <!-- use js to hide/unhide -->
+            <ul class="hidden flex-col items-center absolute top-20 inset-x-1 pt-8 pb-10 space-y-5 bg-white text-darkGrayBlue text-lg after:block after:absolute after:border-solid after:border-r-white after:border-r-[3rem] after:border-y-transparent after:border-y-[3rem] after:border-l-0 after:top-[-10%] after:right-[0%]" id="mobileNav">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a class="font-display text-base uppercase rounded-full bg-yellow text-veryDarkDesatBlue font-extrabold inline-block mt-2 px-8 py-3" href="#">Contact</a></li>
+            </ul>
+
+            <button class="" id="hamburgerMenu">
+                <img src="images/icon-hamburger.svg" alt="hamburger menu icon">
+            </button>
+        </nav>
+        <h1 class="font-display text-4xl uppercase text-center text-white tracking-[.15em] mb-12">We are creatives</h1>
+        <img class="w-8 " src="images/icon-arrow-down.svg" alt="Arrow pointing down">
+    </header>
+    <main>
+        <!-- CTA's -->
+        <section class="grid grid-rows-2">
+            <div class="bg-[url('../images/mobile/image-transform.jpg')] bg-cover bg-no-repeat bg-center">
+                <!-- empty div to show bg image -->
+            </div>
+            <div class="flex flex-col items-center py-16 px-5 space-y-8">
+                <h2 class="font-display text-3xl font-extrabold text-veryDarkDesatBlue text-center">Transform your brand</h2>
+                <p class="text-darkGrayBlue text-center text-lg">
+                    We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.
+                </p>
+                <a class="inline-block font-display uppercase font-extrabold after:block after:w-[112%] after:h-2 after:bg-yellow after:opacity-25 after:rounded-full after:-ml-1.5 after:-mt-2 hover:after:bg-yellow hover:after:opacity-100" href="#">Learn more</a>
+            </div>
+        </section>
+        <section class="grid grid-rows-2">
+            <div class="bg-[url('../images/mobile/image-stand-out.jpg')] bg-cover bg-no-repeat bg-center">
+                <!-- empty div to show bg image -->
+            </div>
+            <div class="flex flex-col items-center py-16 px-5 space-y-8">
+                <h2 class="font-display text-3xl font-extrabold text-veryDarkDesatBlue text-center">Stand out to the right audience</h2>
+                <p class="text-darkGrayBlue text-center text-lg">
+                    Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we'll build and extend your brand in digital places.
+                </p>
+                <a class="inline-block font-display uppercase font-extrabold after:block after:w-[112%] after:h-2 after:bg-softRed after:opacity-25 after:rounded-full after:-ml-1.5 after:-mt-2 hover:after:bg-softRed hover:after:opacity-100" href="#">Learn more</a>
+            </div>
+        </section>
+        <!-- Services -->
+        <section class="grid grid-rows-2">
+            <div class="bg-[url('../images/mobile/image-graphic-design.jpg')] bg-cover bg-no-repeat bg-top space-y-5 pt-96 pb-16 px-5">
+                <h2 class="font-display text-3xl font-extrabold text-darkDesatCyan text-center">Graphic Design</h2>
+                <p class="text-darkDesatCyan text-center">
+                    Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients&apos; attention.
+                </p>
+            </div>
+            <div class="bg-[url('../images/mobile/image-photography.jpg')] bg-cover bg-no-repeat bg-top space-y-5 pt-96 pb-16 px-5">
+                <h2 class="font-display text-3xl font-extrabold text-darkBlue text-center">Photography</h2>
+                <p class="text-darkBlue text-center">
+                    Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+                </p>
+            </div>
+        </section>
+        <!-- Testimonials -->
+        <section class="pt-16 pb-20 px-5">
+            <h2 class="font-display text-center uppercase text-grayBlue tracking-[0.15em] mb-16">Client Testimonials</h2>
+            <div class="grid grid-rows-3 gap-16">
+                <div class="flex flex-col items-center space-y-8">
+                    <img class="rounded-full w-16" src="images/image-emily.jpg" alt="Picture of Emily R.">
+                    <blockquote class="text-center text-lg text-veryDarkGrayBlue">
+                        We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+                    </blockquote>
+                    <div class="space-y-2">
+                        <div class="text-veryDarkDesatBlue font-display font-extrabold text-lg text-center">Emily R.</div>
+                        <div class="text-sm text-grayBlue text-center">Marketing Director</div>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center space-y-8">
+                    <img class="rounded-full w-16" src="images/image-thomas.jpg" alt="Picture of Thomas S.">
+                    <blockquote class="text-center text-lg text-veryDarkGrayBlue">
+                        Sunnyside's enthusiasm coupled with their keen interest in our brand's success made it a satisfying and enjoyable experience.
+                    </blockquote>
+                    <div class="space-y-2">
+                        <div class="text-veryDarkDesatBlue font-display font-extrabold text-lg text-center">Thomas S.</div>
+                        <div class="text-sm text-grayBlue text-center">Chief Operating Officer</div>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center space-y-8">
+                    <img class="rounded-full w-16" src="images/image-jennie.jpg" alt="Picture of Jennie F.">
+                    <blockquote class="text-center text-lg text-veryDarkGrayBlue">
+                        Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommend!
+                    </blockquote>
+                    <div class="space-y-2">
+                        <div class="text-veryDarkDesatBlue font-display font-extrabold text-lg text-center">Jennie F.</div>
+                        <div class="text-sm text-grayBlue text-center">Business Owner</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Gallery -->
+        <section class="grid grid-cols-2">
+            <div class="bg-[url('../images/mobile/image-gallery-milkbottles.jpg')] bg-cover aspect-square"></div>
+            <div class="bg-[url('../images/mobile/image-gallery-orange.jpg')] bg-cover aspect-square"></div>
+            <div class="bg-[url('../images/mobile/image-gallery-cone.jpg')] bg-cover aspect-square"></div>
+            <div class="bg-[url('../images/mobile/image-gallery-sugar-cubes.jpg')] bg-cover aspect-square"></div>
+        </section>
+    </main>
+    <footer class="bg-lightModerateCyan flex flex-col items-center pt-16 pb-5 px-5">
+        <img class="mb-10 w-40" src="images/logo cyan.svg" alt="Sunnyside Logo">
+        <nav class="w-full mb-20">
+            <ul class="flex flex-row justify-around text-darkModerateCyan text-lg">
+                <li><a class="hover:text-white" href="#">About</a></li>
+                <li><a class="hover:text-white" href="#">Services</a></li>
+                <li><a class="hover:text-white" href="#">Projects</a></li>
+            </ul>
+        </nav>
+        <ul class="flex flex-row justify-around w-3/5">
+            <li><a href="#"><img class="hover:saturate-100 hover:brightness-0 hover:invert" src="images/icon-facebook.svg" alt=""></a></li>
+            <li><a href="#"><img class="hover:saturate-100 hover:brightness-0 hover:invert" src="images/icon-instagram.svg" alt=""></a></li>
+            <li><a href="#"><img class="hover:saturate-100 hover:brightness-0 hover:invert" src="images/icon-twitter.svg" alt=""></a></li>
+            <li><a href="#"><img class="hover:saturate-100 hover:brightness-0 hover:invert" src="images/icon-pinterest.svg" alt=""></a></li>
+        </ul>
+        <div class="text-sm text-darkModerateCyan mt-10">
+            Challenge by <a class="underline" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+            Coded by <a class="underline" href="http://robojojo.co/">Jordan Kisiel</a>.
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
