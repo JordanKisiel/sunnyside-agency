@@ -10,7 +10,8 @@ module.exports = {
       'xl': '950px',
       '2xl': '1100px',
       '3xl': '1300px',
-      '4xl': '1440px'
+      '4xl': '1440px',
+      '5xl': '1800px'
     },
     colors:{
       transparent: 'transparent',

@@ -831,10 +831,6 @@ video {
   padding-bottom: 1.25rem;
 }
 
-.text-left {
-  text-align: left;
-}
-
 .text-center {
   text-align: center;
 }
@@ -1370,22 +1366,12 @@ video {
 }
 
 @media (min-width: 1440px) {
-  .\34xl\:mb-16 {
-    margin-bottom: 4rem;
-  }
-
-  .\34xl\:mb-24 {
-    margin-bottom: 6rem;
-  }
-
   .\34xl\:mb-28 {
     margin-bottom: 7rem;
   }
 
-  .\34xl\:space-y-16 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-y-reverse: 0;
-    margin-top: calc(4rem * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(4rem * var(--tw-space-y-reverse));
+  .\34xl\:mb-24 {
+    margin-bottom: 6rem;
   }
 
   .\34xl\:space-y-12 > :not([hidden]) ~ :not([hidden]) {
@@ -1394,45 +1380,10 @@ video {
     margin-bottom: calc(3rem * var(--tw-space-y-reverse));
   }
 
-  .\34xl\:space-y-20 > :not([hidden]) ~ :not([hidden]) {
+  .\34xl\:space-y-16 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
-    margin-top: calc(5rem * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(5rem * var(--tw-space-y-reverse));
-  }
-
-  .\34xl\:py-32 {
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-  }
-
-  .\34xl\:py-64 {
-    padding-top: 16rem;
-    padding-bottom: 16rem;
-  }
-
-  .\34xl\:py-48 {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
-  }
-
-  .\34xl\:px-48 {
-    padding-left: 12rem;
-    padding-right: 12rem;
-  }
-
-  .\34xl\:px-32 {
-    padding-left: 8rem;
-    padding-right: 8rem;
-  }
-
-  .\34xl\:px-36 {
-    padding-left: 9rem;
-    padding-right: 9rem;
-  }
-
-  .\34xl\:px-28 {
-    padding-left: 7rem;
-    padding-right: 7rem;
+    margin-top: calc(4rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(4rem * var(--tw-space-y-reverse));
   }
 
   .\34xl\:py-40 {
@@ -1440,34 +1391,23 @@ video {
     padding-bottom: 10rem;
   }
 
+  .\34xl\:px-36 {
+    padding-left: 9rem;
+    padding-right: 9rem;
+  }
+
   .\34xl\:px-44 {
     padding-left: 11rem;
     padding-right: 11rem;
   }
 
-  .\34xl\:px-24 {
-    padding-left: 6rem;
-    padding-right: 6rem;
+  .\34xl\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
   }
 
   .\34xl\:pb-80 {
     padding-bottom: 20rem;
-  }
-
-  .\34xl\:pt-\[32rem\] {
-    padding-top: 32rem;
-  }
-
-  .\34xl\:pt-\[31rem\] {
-    padding-top: 31rem;
-  }
-
-  .\34xl\:pt-\[24rem\] {
-    padding-top: 24rem;
-  }
-
-  .\34xl\:pt-\[25rem\] {
-    padding-top: 25rem;
   }
 
   .\34xl\:pt-\[26rem\] {
@@ -1479,16 +1419,6 @@ video {
     line-height: 1;
   }
 
-  .\34xl\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-
-  .\34xl\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-
   .\34xl\:text-5xl {
     font-size: 3rem;
     line-height: 1;
@@ -1497,5 +1427,110 @@ video {
   .\34xl\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+}
+
+@media (min-width: 1800px) {
+  .\35xl\:mb-16 {
+    margin-bottom: 4rem;
+  }
+
+  .\35xl\:mb-28 {
+    margin-bottom: 7rem;
+  }
+
+  .\35xl\:w-48 {
+    width: 12rem;
+  }
+
+  .\35xl\:w-10 {
+    width: 2.5rem;
+  }
+
+  .\35xl\:w-11 {
+    width: 2.75rem;
+  }
+
+  .\35xl\:gap-24 {
+    gap: 6rem;
+  }
+
+  .\35xl\:space-y-10 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
+  }
+
+  .\35xl\:px-48 {
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
+
+  .\35xl\:px-56 {
+    padding-left: 14rem;
+    padding-right: 14rem;
+  }
+
+  .\35xl\:py-56 {
+    padding-top: 14rem;
+    padding-bottom: 14rem;
+  }
+
+  .\35xl\:px-60 {
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
+
+  .\35xl\:px-64 {
+    padding-left: 16rem;
+    padding-right: 16rem;
+  }
+
+  .\35xl\:px-72 {
+    padding-left: 18rem;
+    padding-right: 18rem;
+  }
+
+  .\35xl\:pb-96 {
+    padding-bottom: 24rem;
+  }
+
+  .\35xl\:pb-\[13rem\] {
+    padding-bottom: 13rem;
+  }
+
+  .\35xl\:pb-\[20rem\] {
+    padding-bottom: 20rem;
+  }
+
+  .\35xl\:pb-\[28rem\] {
+    padding-bottom: 28rem;
+  }
+
+  .\35xl\:pb-\[27rem\] {
+    padding-bottom: 27rem;
+  }
+
+  .\35xl\:pt-\[30rem\] {
+    padding-top: 30rem;
+  }
+
+  .\35xl\:pt-\[32rem\] {
+    padding-top: 32rem;
+  }
+
+  .\35xl\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .\35xl\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .\35xl\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }
