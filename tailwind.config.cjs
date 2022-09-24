@@ -4,15 +4,19 @@ module.exports = {
   content: ["./*.html"],
   theme: {
     screens:{
-      sm: '480px',
-      md: '768px',
-      lg: '976px',
-      xl: '1440px'
+      'sm': '450px',
+      'md': '550px',
+      'lg': '700px',
+      'xl': '950px',
+      '2xl': '1100px',
+      '3xl': '1300px',
+      '4xl': '1440px'
     },
     colors:{
       transparent: 'transparent',
       softRed: 'hsl(7, 99%, 70%)',
       yellow: 'hsl(51, 100%, 49%)',
+      skyBlue: '#3dbeff',
       darkDesatCyan: 'hsl(167, 40%, 24%)',
       darkBlue: 'hsl(198, 62%, 26%)',
       darkModerateCyan: 'hsl(168, 34%, 41%)',
